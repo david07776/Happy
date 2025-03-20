@@ -37,8 +37,8 @@ body{
     text-indent: 2em;
   
     line-height: 28px;
-    font-size: 20px;
-    color: #303030;
+    font-size: 22px;
+    color: #ffc0cb;
     overflow: auto;
 }
 .bb_myname{text-align: right; padding: 0px 40px 20px; line-height: 30px; color: #883a78;}
