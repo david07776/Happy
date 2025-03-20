@@ -41,7 +41,7 @@ body{
     color: #ffc0cb;
     overflow: auto;
 }
-.bb_myname{text-align: right; padding: 0px 40px 20px; line-height: 30px; color: #883a78;}
+.bb_myname{text-align: right; padding: 0px 40px 20px; line-height: 30px; color: #f0f0f0;}
 .mb-x{width: 500px; height: auto; overflow: hidden; margin-top: 260px;}
 .love_time{width: 100%; text-align: center; font-size: 14px; color:#da8e9c;}
 .love_time span{color:#da8e9c;}
