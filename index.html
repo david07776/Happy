@@ -39,15 +39,7 @@
 
     <audio id="audio" autoplay loop muted>
     <source src="music.mp3" type="audio/mpeg">
-</audio>
-
-<script>
-    document.addEventListener("click", function () {
-        var audio = document.getElementById("audio");
-        audio.muted = false; // Unmute on first click
-        audio.play();
-    }, { once: true }); // Runs only once
-</script>
+    </audio>
 
     <script>
         Element.prototype.typewriter = function () {
@@ -74,6 +66,12 @@
   
     <script type="text/javascript" src="count.js"></script>
     <script type="text/javascript" async="" src="su.js"></script>
-
+    <script>
+    document.addEventListener("click", function () {
+        var audio = document.getElementById("audio");
+        audio.muted = false; // Unmute on first click
+        audio.play();
+    }, { once: true }); // Runs only once
+    </script>
 </body>
 </html>
