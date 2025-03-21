@@ -8,7 +8,8 @@ body{
     height: 100%;
     background: url("bg.gif") center top #f4f4f4;
     overflow: hidden;
-    background-size: cover;
+    background-size: 100% auto; /* Full width, height auto-adjusts */
+   
 }
 .mb-box{width: 416px; height: auto; padding:15px;  z-index: 2; overflow: hidden;
     position: absolute;
